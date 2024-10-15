@@ -1,0 +1,126 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D5CAEB;
+    height: 1000px;
+}
+
+/* Header styles */
+header {
+    background-color: #A3DDF5;
+    padding: 10px 20px;
+}
+
+.logo-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.search-bar {
+    display: flex;
+    width: 60%;
+}
+
+.search-bar input {
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    width: 10%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.cart img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Banner styles */
+.banner {
+    display: flex;
+    margin: 20px 0;
+}
+
+.banner-main {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.banner-main img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.banner-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-side img {
+    width: 100%;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    height: 150px;
+}
+
+/* Categories section styles */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: #D5CAEB;
+    padding: 20px;
+}
+
+.category-item {
+    text-align: center;
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+.category-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.category-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.category-item a {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: inherit; /* Menggunakan warna teks yang sama */
+}
+

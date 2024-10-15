@@ -1,0 +1,124 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8EAF6;
+}
+
+/* Header Section */
+header {
+    background-color: #6EC6FF;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.shop-name {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    margin: -30px 0 0 50px; /* Geser ke atas dengan margin-top negatif dan ke kanan dengan margin-left */
+}
+
+
+/* Main Container */
+.main-container {
+    width: 99%;
+    margin-top: 20px ;
+    margin-bottom: ;
+    margin-left: 10px ;
+    margin-right: ;
+    background-color: #7CD3F8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Game Information Section */
+.game-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.game-info h2 {
+    font-size: 20px;
+    color: #212121;
+}
+
+/* Input Section */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-field {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #B0BEC5;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+/* Product Section */
+.product-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.product-btn {
+    padding: 15px;
+    background-color: #ffffff;
+    color: #212121;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.product-btn:hover {
+    background-color: #FFCDD2;
+}

@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D5CAEB;
+}
+
+/* Header styles */
+header {
+    background-color: #A3DDF5;
+    padding: 10px 20px;
+}
+
+.search-bar {
+    margin-left: auto; /* Menggeser elemen ke kanan */
+}
+
+.search-bar button {
+    background: #ffffff;
+    border: none ;
+    cursor: pointer;
+}
+
+.search-bar img {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    top: 10px;
+}
+
+.logo h1 {
+    margin-left: 50px;
+    margin-top: -30px;
+    font-size: 24px;
+}
+
+
+/* Banner Section */
+.banner {
+    margin: 0px;
+    text-align: center;
+}
+
+.banner img {
+    width: 60%;
+    height: auto;
+    border-radius: 0px;
+}
+
+.circle-buttons {
+    display: flex;
+    justify-content: center; /* Posisikan tombol di tengah */
+    margin-top: 10px; /* Geser tombol lebih dekat ke banner */
+    margin-bottom: 50px;
+}
+
+/* Styling tombol lingkaran */
+.circle-button {
+    width: 20px;
+    height: 15px;
+    background-color: rgb(249, 249, 249);
+    border: 2px solid black;
+    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
+    margin: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.circle-button:hover {
+    background-color: rgb(52, 49, 49); /* Ganti warna saat dihover */
+}
+
+/* Game List Section */
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Membuat kolom otomatis sesuai ukuran layar */
+    gap: 40px; /* Jarak antar logo */
+    justify-items: center; /* Pusatkan logo di setiap kolom */
+    padding: 20px;
+}
+
+.game-list a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: inherit; /* Memastikan warna teks sama dengan warna default */
+}
+
+.game {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.game p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: inherit; /* Menggunakan warna teks yang sama */
+}
